@@ -1,0 +1,49 @@
+[
+  {
+    "key": "home",
+    "title": "首页",
+    "children": []
+  },
+  {
+    "key": "products",
+    "title": "产品",
+    "children": [
+      {
+        "key": "product-list",
+        "title": "产品列表"
+      },
+      {
+        "key": "product-detail",
+        "title": "产品详情"
+      }
+    ]
+  },
+  {
+    "key": "services",
+    "title": "服务",
+    "children": [
+      {
+        "key": "service-support",
+        "title": "服务支持"
+      },
+      {
+        "key": "customer-cases",
+        "title": "客户案例"
+      }
+    ]
+  },
+  {
+    "key": "about",
+    "title": "关于我们",
+    "children": [
+      {
+        "key": "company-intro",
+        "title": "公司简介"
+      },
+      {
+        "key": "contact-us",
+        "title": "联系我们"
+      }
+    ]
+  }
+]

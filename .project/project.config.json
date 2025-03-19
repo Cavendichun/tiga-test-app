@@ -1,0 +1,9 @@
+{
+  "projectName": "Awesome App",
+  "version": "1.0.0-alpha.0",
+  "container": [
+    {
+      "name": "awesome-container"
+    }
+  ]
+}

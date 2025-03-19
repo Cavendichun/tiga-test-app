@@ -1,0 +1,20 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+overrides:
+  '@cavendichun/tiga-cli': link:../../../../.pnpm-store/global/5/node_modules/@cavendichun/tiga-cli
+  '@cavendichun/tiga-hostapp': link:../../../../.pnpm-store/global/5/node_modules/@cavendichun/tiga-hostapp
+
+importers:
+
+  .:
+    dependencies:
+      '@cavendichun/tiga-cli':
+        specifier: link:../../../../.pnpm-store/global/5/node_modules/@cavendichun/tiga-cli
+        version: link:../../../../.pnpm-store/global/5/node_modules/@cavendichun/tiga-cli
+      '@cavendichun/tiga-hostapp':
+        specifier: link:../../../../.pnpm-store/global/5/node_modules/@cavendichun/tiga-hostapp
+        version: link:../../../../.pnpm-store/global/5/node_modules/@cavendichun/tiga-hostapp

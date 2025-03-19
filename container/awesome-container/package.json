@@ -1,0 +1,22 @@
+{
+  "name": "awesome-container",
+  "version": "1.0.0-alpha.0",
+  "description": "",
+  "scripts": {
+    "serve": "tiga-cli serve-container"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.4",
+  "pnpm": {
+    "overrides": {
+      "@cavendichun/tiga-cli": "link:../../../../.pnpm-store/global/5/node_modules/@cavendichun/tiga-cli",
+      "@cavendichun/tiga-hostapp": "link:../../../../.pnpm-store/global/5/node_modules/@cavendichun/tiga-hostapp"
+    }
+  },
+  "dependencies": {
+    "@cavendichun/tiga-cli": "link:../../../../.pnpm-store/global/5/node_modules/@cavendichun/tiga-cli",
+    "@cavendichun/tiga-hostapp": "link:../../../../.pnpm-store/global/5/node_modules/@cavendichun/tiga-hostapp"
+  }
+}
