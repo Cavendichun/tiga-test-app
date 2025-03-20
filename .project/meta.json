@@ -1,0 +1,12 @@
+{
+  "projectId": 1,
+  "integratedEnv": "http://127.0.0.1:8080",
+  "container": {
+    "name": "awesome-container"
+  },
+  "microapps": [
+    {
+      "name": "awesome-dashbord"
+    }
+  ]
+}
