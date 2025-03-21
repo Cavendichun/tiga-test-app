@@ -5,5 +5,13 @@
     {
       "name": "awesome-container"
     }
+  ],
+  "microapps": [
+    {
+      "name": "dashboard-awesome-microapp"
+    },
+    {
+      "name": "tools-awesome-microapp"
+    }
   ]
 }

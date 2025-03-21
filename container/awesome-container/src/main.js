@@ -5,15 +5,19 @@ export default {
     // menuLoader() {
     //   return [];
     // },
-    menuFilter(node) {
-      console.log(node);
-      return true
-    },
+    // menuFilter(node) {
+    //   return true;
+    // },
   },
   hooks: {
     // 加载完project 配置后，可以对projectConfig进行修改
-    afterLoadProjectConfig(projectConfig) {
-      projectConfig.haha = '12345';
-    },
+    // afterLoadProjectConfig(projectConfig) {
+    //   projectConfig.haha = '12345';
+    //   return projectConfig;
+    // },
+    // 加载完sitemap后，可以对sitemap进行修改
+    // afterLoadSitemap(sitemap) {
+    //   return sitemap;
+    // },
   },
 };

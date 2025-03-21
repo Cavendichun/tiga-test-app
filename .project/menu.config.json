@@ -1,48 +1,33 @@
 [
   {
-    "key": "home",
-    "title": "首页",
-    "children": []
+    "title": "仪表盘",
+    "key": "Dashboard_DashboardIndex",
+    "type": "sitemapNode"
   },
   {
-    "key": "products",
-    "title": "产品",
+    "title": "工具集",
+    "key": "XHury8hdfGTYjj8",
     "children": [
       {
-        "key": "product-list",
-        "title": "产品列表"
+        "title": "天气预报",
+        "key": "Tools_WeatherForecastIndex",
+        "type": "sitemapNode"
       },
       {
-        "key": "product-detail",
-        "title": "产品详情"
-      }
-    ]
-  },
-  {
-    "key": "services",
-    "title": "服务",
-    "children": [
-      {
-        "key": "service-support",
-        "title": "服务支持"
+        "title": "心率监测",
+        "key": "Tools_HeartRateMonitorIndex",
+        "type": "sitemapNode"
       },
       {
-        "key": "customer-cases",
-        "title": "客户案例"
-      }
-    ]
-  },
-  {
-    "key": "about",
-    "title": "关于我们",
-    "children": [
-      {
-        "key": "company-intro",
-        "title": "公司简介"
+        "title": "备忘录",
+        "key": "Tools_MemoIndex",
+        "type": "sitemapNode"
       },
       {
-        "key": "contact-us",
-        "title": "联系我们"
+        "title": "百度",
+        "key": "XHury8hdopKY7kB",
+        "type": "outlink",
+        "href": "https://www.baidu.com"
       }
     ]
   }

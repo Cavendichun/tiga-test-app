@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@cavendichun/tiga-cli": "link:../../../../.pnpm-store/global/5/node_modules/@cavendichun/tiga-cli",
-    "@cavendichun/tiga-hostapp": "link:../../../../.pnpm-store/global/5/node_modules/@cavendichun/tiga-hostapp"
+    "@cavendichun/tiga-hostapp": "link:../../../../.pnpm-store/global/5/node_modules/@cavendichun/tiga-hostapp",
+    "antd": "5.24.4"
   }
 }

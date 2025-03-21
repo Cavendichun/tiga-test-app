@@ -1,0 +1,29 @@
+[
+  {
+    "title": "仪表盘",
+    "key": "Dashboard_DashboardIndex",
+    "path": "/dashboard"
+  },
+  {
+    "title": "天气预报",
+    "key": "Tools_WeatherForecastIndex",
+    "path": "/tools/weather-forecast"
+  },
+  {
+    "title": "心率监测",
+    "key": "Tools_HeartRateMonitorIndex",
+    "path": "/tools/heart-rate-monitor"
+  },
+  {
+    "title": "备忘录",
+    "key": "Tools_MemoIndex",
+    "path": "/tools/memo",
+    "children": [
+      {
+        "title": "备忘录详情",
+        "key": "Tools_MemoDetail",
+        "path": "/tools/memo/:id/detail"
+      }
+    ]
+  }
+]
